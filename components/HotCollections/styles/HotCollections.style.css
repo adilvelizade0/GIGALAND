@@ -98,6 +98,25 @@ body {
   padding-bottom: 10px;
 }
 
+#hot-collections #collection-carousel .nft_coll .nft_wrap {
+  overflow: hidden;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_wrap img {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+#hot-collections #collection-carousel .nft_coll:hover .nft_coll_pp {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#hot-collections #collection-carousel .nft_coll:hover .nft_wrap img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 #hot-collections #collection-carousel .nft_coll .nft_coll_info h4 {
   font-size: 16px;
   margin-bottom: 0;
@@ -114,6 +133,8 @@ body {
   margin-top: -30px;
   margin-bottom: 10px;
   position: relative;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 #hot-collections #collection-carousel .nft_coll .nft_coll_pp img {
