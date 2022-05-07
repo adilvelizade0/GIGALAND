@@ -121,14 +121,14 @@ body {
   font-weight: 600;
 }
 
+#header .slider-content .slider-container:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 #header .slider-content .slider-container img {
   -webkit-transition: 2s;
   transition: 2s;
-}
-
-#header .slider-content .slider-container img:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
 }
 
 .btn-main {
