@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+}
+
+#hot-collections {
+  .section-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .dash {
+      width: 50px;
+      height: 2px;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 30px;
+    }
+  }
+
+  #collection-carousel {
+    .collection-swiper-next {
+      color: black;
+      right: 5px;
+      background-color: #faf6f1;
+      border: solid 1px #ccc;
+      padding: 21px;
+      border-radius: 50%;
+      transition: all 0.2s !important;
+
+      &::after {
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      &:hover {
+        // box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+      }
+    }
+
+    .collection-swiper-prev {
+      color: black;
+      left: 5px;
+      background-color: #faf6f1;
+      border: solid 1px #ccc;
+      padding: 21px;
+      border-radius: 50%;
+      transition: all 0.2s !important;
+
+      &::after {
+        font-size: 15px;
+        font-weight: bolder;
+      }
+
+      &:hover {
+        // box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+      }
+    }
+
+    .nft_coll {
+      background: #fdfbf8;
+      border-radius: 0;
+      border: solid 1px #888;
+      -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      text-align: center;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+
+      .nft_coll_info {
+        h4 {
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+
+      .nft_coll_pp {
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        position: relative;
+
+        img {
+          border: solid 2px #333;
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          border-radius: 100%;
+        }
+
+        i {
+          font-size: 10px;
+          color: #ffffff;
+          background: #333;
+          border-radius: 100%;
+          padding: 3px;
+          position: absolute;
+          bottom: 4px;
+          right: 5px;
+        }
+      }
+    }
+  }
+}
