@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#head img {
+  margin-left: 70px;
+  padding-bottom: 60px;
+}
+
+#head i {
+  padding-right: 20px;
+  color: black;
+}
+
+#toprow div ol li div a img {
+  border-radius: 50%;
+  border: 3px;
+  border-color: black;
+}
+/*# sourceMappingURL=icon.css.map */
