@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wallet .walletHeader h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 3.125rem;
+  color: #0d0c22;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.wallet .walletBody {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.wallet .walletBody .walletCard {
+  border: .01rem #727272 solid;
+  padding: 1rem 1rem;
+  position: relative;
+}
+
+.wallet .walletBody .walletCard a {
+  text-decoration: none;
+}
+
+.wallet .walletBody .walletCard a img {
+  margin-bottom: 1.6rem;
+}
+
+.wallet .walletBody .walletCard a h4 {
+  color: #0d0c22;
+  font-family: 'Bungee', cursive;
+  font-size: 1.25rem;
+}
+
+.wallet .walletBody .walletCard a span,
+.wallet .walletBody .walletCard a p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.wallet .walletBody .walletCard a span {
+  color: #0d0c22;
+  font-weight: 600;
+  border: .01rem #0d0c22 solid;
+  padding: .125rem .625rem;
+  position: absolute;
+  right: 0.7rem;
+}
+
+.wallet .walletBody .walletCard a p {
+  color: #727272;
+}
+/*# sourceMappingURL=wallet.style.css.map */

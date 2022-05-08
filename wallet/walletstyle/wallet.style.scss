@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wallet {
+    .walletHeader {
+        h1 {
+            font-family: 'Bungee', cursive;
+            font-size: 3.125rem;
+            color: #0d0c22;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .walletBody {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        .walletCard {
+            border: .01rem #727272 solid;
+            padding: 1rem 1rem;
+            position: relative;
+
+            a {
+                text-decoration: none;
+
+                img{
+                    // width: 4.375rem;
+                    // height: 4.375rem;
+                    margin-bottom: 1.6rem;
+                }
+
+                h4 {
+                    color: #0d0c22;
+                    font-family: 'Bungee', cursive;
+                    font-size: 1.25rem;
+                }
+
+                span,
+                p {
+                    font-family: 'Roboto Slab', serif;
+                }
+
+                span {
+                    color: #0d0c22;
+                    font-weight: 600;
+                    border: .01rem #0d0c22 solid;
+                    padding: .125rem .625rem;
+                    position: absolute;
+                    right: 0.7rem;
+                }
+
+                p {
+                    color: #727272;
+                }
+            }
+        }
+    }
+}
