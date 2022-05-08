@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+}
+
+#top-sellers .top-sellers--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#top-sellers .top-sellers--title .dash {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+#top-sellers .top-sellers--content .author_list {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+#top-sellers .top-sellers--content .author_list li {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_pp {
+  margin-top: 2px;
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+  z-index: 10;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_pp img {
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 100%;
+  background-color: #0d0c22;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_pp img:hover {
+  padding: 4px;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_pp i {
+  background-color: #0d0c22;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_info {
+  font-weight: bold;
+  padding-left: 70px;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_info span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+#top-sellers .top-sellers--content .author_list li .author_list_info a {
+  text-decoration: none;
+  color: #1a1b1e;
+}
+/*# sourceMappingURL=TopSellers.compnent.css.map */
