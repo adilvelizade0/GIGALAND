@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#aria-label .card {
+  background-color: #E2DEDB;
+  text-align: center !important;
+  border-radius: 0;
+  border: none;
+  padding: 30px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#aria-label .card:hover {
+  background-color: #0D0C22;
+  color: white;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#aria-label .card:hover p {
+  color: white !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#aria-label .card .card-body h4 {
+  font-family: "Bungee";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#aria-label .card .card-body p {
+  font-family: "Roboto Slab";
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  color: #727272;
+  margin-bottom: 20px;
+}
+
+#aria-label .card .card-body a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #0D0C22;
+  padding: 8px 40px;
+  font-size: 14px;
+  border: none;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#aria-label .card .card-body a:hover {
+  background-color: white;
+  color: #0D0C22;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+/*# sourceMappingURL=aria-label.css.map */

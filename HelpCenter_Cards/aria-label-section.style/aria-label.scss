@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+#aria-label {
+
+    .card {
+
+        background-color: #E2DEDB;
+        text-align: center !important;
+        border-radius: 0;
+        border: none;
+        padding: 30px;
+        transition: .7s;
+
+        &:hover {
+            background-color: #0D0C22;
+            color: white ;
+            transition: .7s;
+
+            p {
+                color: white !important;
+                transition: .7s;
+            }
+        }
+      
+        .card-body {
+
+            h4 {
+                font-family: "Bungee";
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            p {
+
+                font-family: "Roboto Slab";
+                font-weight: 500 !important;
+                font-size: 18px !important;
+                color:#727272;
+                margin-bottom: 20px;
+
+        
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                background-color: #0D0C22;
+                padding: 8px 40px;
+                font-size: 14px;
+                border: none;
+                transition: .7s;
+
+                &:hover {
+                    background-color: white;
+                    color: #0D0C22;
+                    transition: .7s;
+                }
+             
+
+        }
+
+
+    }
+    }
+}
