@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#help-center .help-center--title {
+  border-bottom: solid 1px #ccc;
+}
+
+#help-center .help-center--title h1 {
+  font-size: 50px;
+}
+
+#help-center .help-center--title p {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#help-center .help-center--title #form_sb a i {
+  border: solid 1px #888;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  text-align: center;
+  font-size: 28px;
+  float: left;
+  width: 15%;
+  background: #171a21;
+  color: #ffffff;
+  padding: 0px 6px;
+}
+
+#help-center .help-center--title #form_sb input {
+  padding: 21px 12px 21px 12px;
+  width: 85%;
+  height: 30px;
+  float: left;
+  border: none;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.7);
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  font-family: "Roboto Slab";
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+}
+
+#aria-label .card {
+  background-color: #e2dedb;
+  text-align: center !important;
+  border-radius: 0;
+  border: none;
+  padding: 30px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#aria-label .card:hover {
+  background-color: #0d0c22;
+  color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#aria-label .card:hover p {
+  color: white !important;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#aria-label .card .card-body h4 {
+  font-family: "Bungee";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#aria-label .card .card-body p {
+  font-family: "Roboto Slab";
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  color: #727272;
+  margin-bottom: 20px;
+}
+
+#aria-label .card .card-body a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #0d0c22;
+  padding: 8px 40px;
+  font-size: 14px;
+  border: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#aria-label .card .card-body a:hover {
+  background-color: white;
+  color: #0d0c22;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+/*# sourceMappingURL=help-center.style.css.map */
