@@ -23,6 +23,7 @@ body {
   background-color: #faf6f1;
   color: #727272;
   animation: change-background 1s ease infinite;
+  overflow-x: hidden;
 }
 
 .anime-loader {
