@@ -6,7 +6,6 @@
 
 #section-intro {
 
-
 .card {
   
     background-color: #E2DEDB;
@@ -17,18 +16,13 @@
 
     &:hover
      {
-         .behind {
-             opacity: 0;
-             transition: 400ms;
-             transform: rotate(-10deg);
-          
 
-         }
-         
         background-color: #0D0C22;
         color:white !important;
         transition: .7s;
 
+         
+     
         .card-title {
           
             color:white !important;
@@ -40,6 +34,14 @@
             color:white !important;
             transition: .7s;
      }
+
+     
+     .behind {
+        opacity: 0;
+        transition: 400ms;
+        transform: rotate(-10deg);
+
+    }
      
     
     }

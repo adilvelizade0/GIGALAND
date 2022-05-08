@@ -21,14 +21,6 @@
   transition: .7s;
 }
 
-#section-intro .card:hover .behind {
-  opacity: 0;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-}
-
 #section-intro .card:hover .card-title {
   color: white !important;
   -webkit-transition: .7s;
@@ -39,6 +31,14 @@
   color: white !important;
   -webkit-transition: .7s;
   transition: .7s;
+}
+
+#section-intro .card:hover .behind {
+  opacity: 0;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 #section-intro .card .card-body {
