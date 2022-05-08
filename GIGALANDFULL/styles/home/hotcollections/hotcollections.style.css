@@ -1,0 +1,131 @@
+#hot-collections .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#hot-collections .section-title .dash {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+#hot-collections #collection-carousel .collection-swiper-next {
+  color: black;
+  right: 5px;
+  background-color: #faf6f1;
+  border: solid 1px #ccc;
+  padding: 21px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+}
+
+#hot-collections #collection-carousel .collection-swiper-next::after {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#hot-collections #collection-carousel .collection-swiper-next:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#hot-collections #collection-carousel .collection-swiper-prev {
+  color: black;
+  left: 5px;
+  background-color: #faf6f1;
+  border: solid 1px #ccc;
+  padding: 21px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+}
+
+#hot-collections #collection-carousel .collection-swiper-prev::after {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#hot-collections #collection-carousel .collection-swiper-prev:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#hot-collections #collection-carousel .nft_coll {
+  background: #fdfbf8;
+  border-radius: 0;
+  border: solid 1px #888;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_wrap {
+  overflow: hidden;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_wrap img {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+#hot-collections #collection-carousel .nft_coll:hover .nft_coll_pp {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#hot-collections #collection-carousel .nft_coll:hover .nft_wrap img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_coll_info h4 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_coll_info span {
+  font-size: 14px;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_coll_pp {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_coll_pp img {
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 100%;
+}
+
+#hot-collections #collection-carousel .nft_coll .nft_coll_pp i {
+  font-size: 10px;
+  color: #ffffff;
+  background: #333;
+  border-radius: 100%;
+  padding: 3px;
+  position: absolute;
+  bottom: 4px;
+  right: 5px;
+}
+/*# sourceMappingURL=hotcollections.style.css.map */
