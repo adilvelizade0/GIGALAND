@@ -44,7 +44,13 @@
     <link rel="stylesheet" href="../styles/home/footer/footer.style.css">
   </head>
   <body>
-    <!-- Header Section -->
+    <div class="anime-loader position-absolute text-center">
+     <img src="../assets/loaders/giphy.gif" width="20%" alt="loader">
+     <h1 class="mt-3 mt-md-5">Home Page is loading...</h1>
+    </div>
+    
+    <div id="homepage-container" class="d-none">
+      <!-- Header Section -->
     <section id="header" class="pt-5 pb-3">
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -746,6 +752,7 @@
         </div>
       </div>
     </section>
+    </div>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="../scripts/home/hotcollections/hotcollections.script.js"></script>
