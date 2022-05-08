@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#section-intro .card {
+  background-color: #E2DEDB;
+  border-radius: 0;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#section-intro .card:hover {
+  background-color: #0D0C22;
+  color: white !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#section-intro .card:hover .behind {
+  opacity: 0;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#section-intro .card:hover .card-title {
+  color: white !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#section-intro .card:hover .card-text {
+  color: white !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#section-intro .card .card-body {
+  position: relative;
+  padding: 50px;
+  z-index: 0;
+}
+
+#section-intro .card .card-body .icon {
+  width: 56px;
+  height: 56px;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 7px 0;
+  background-color: #0D0C22;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  display: inline-block;
+}
+
+#section-intro .card .card-body .card-title {
+  color: #0D0C22;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Bungee";
+  margin-bottom: 10px;
+}
+
+#section-intro .card .card-body .card-text {
+  color: grey;
+  line-height: 26px;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+}
+
+#section-intro .card .behind {
+  position: absolute;
+  font-size: 240px;
+  color: #CCC8C8;
+  right: 0;
+  top: 10%;
+  left: 50%;
+  z-index: -1;
+}
+/*# sourceMappingURL=section-intro.css.map */
