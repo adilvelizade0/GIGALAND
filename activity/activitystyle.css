@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.activity {
+  background-color: #FAF6F1;
+}
+
+.activity .activityhead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity .activityhead h1 {
+  font-size: 50px;
+  font-family: "Bungee";
+}
+
+.activity .container .row ul {
+  list-style: none;
+}
+
+.activity .container .row ul li {
+  margin: 10px 20px;
+  border: solid 1px #888;
+}
+
+.activity .container .row ul li div {
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity .container .row ul li div img {
+  border-radius: 50%;
+}
+
+.activity .container .row ul li div .activlist h5 a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=activitystyle.css.map */

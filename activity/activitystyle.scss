@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.activity{
+    background-color: #FAF6F1;
+    .activityhead{
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        justify-content: center;
+          align-items: center;
+        h1{
+          font-size: 50px;
+          font-family: "Bungee";
+        }
+    }
+    .container{
+        .row{
+            ul{
+                list-style: none;
+                
+                li{
+                    margin: 10px 20px;
+                    border: solid 1px #888;
+                    div{
+                        
+                        background-color: white;
+                        justify-content: space-around;
+                        align-items: center;
+                        
+                        img{
+                            border-radius: 50%;
+                        }
+                        .activlist{
+                            h5{
+                                a{
+                                   text-decoration: none;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
