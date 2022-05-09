@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#explore .explore--title {
+  border-bottom: solid 1px #ccc;
+}
+
+#explore .explore--title h1 {
+  font-size: 50px;
+}
+
+#explore .explore--content .btn-main {
+  text-align: center;
+  color: #fff;
+  outline: 0;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 13px 40px;
+  font-size: 14px;
+  border: none;
+  background-color: #0d0c22;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#explore .explore--content .btn-main:hover {
+  color: black;
+  background-color: #fdfbf8;
+  border: solid 1px #888;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+}
+
+#explore .explore--content .nft__item {
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#explore .explore--content .nft__item .nft__item_price {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+#explore .explore--content .nft__item .nft__item_price span {
+  margin-left: 10px;
+  color: #0d0c22;
+  font-weight: 700;
+}
+
+#explore .explore--content .nft__item .nft__item_like {
+  position: relative;
+  bottom: 22px;
+  font-size: 14px;
+  color: #ddd;
+  float: right;
+}
+
+#explore .explore--content .nft__item .nft__item_like i {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#explore .explore--content .nft__item .nft__item_like:hover i {
+  color: #ec7498;
+}
+
+#explore .explore--content .nft__item .nft__item_like span {
+  color: #808080;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+#explore .explore--content .nft__item .nft__item_action {
+  font-size: 14px;
+}
+
+#explore .explore--content .nft__item .nft__item_action a {
+  font-weight: bold;
+  color: #0d0c22;
+}
+
+#explore .explore--content .nft__item .nft__item_info {
+  position: relative;
+}
+
+#explore .explore--content .nft__item .nft__item_info .nft__item_click {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  text-align: center;
+}
+
+#explore .explore--content .nft__item .nft__item_info .nft__item_click span:hover::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#explore .explore--content .nft__item .nft__item_info .nft__item_click span:after {
+  display: block;
+  font-size: 16px;
+  content: "...";
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #0d0c22;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+  padding: 8px 0 0 2px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#explore .explore--content .nft__item .de_countdown {
+  position: absolute;
+  right: 20px;
+  background: #ffffff;
+  border: solid 1px #0d0c22;
+  text-align: center;
+  color: #0d0c22;
+  min-width: 150px;
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: center;
+  z-index: 1;
+}
+
+#explore .explore--content .nft__item .de_countdown span {
+  font-weight: bold;
+  font-family: "Roboto Slab";
+  word-spacing: 5px;
+  color: #0d0c22;
+}
+
+#explore .explore--content .nft__item:hover .nft__item_preview {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#explore .explore--content .nft__item .nft__item_wrap {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-size: cover;
+  height: 264px;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+#explore .explore--content .nft__item .nft__item_wrap .nft__item_preview {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#explore .explore--content .nft__item .author_list_pp {
+  position: absolute;
+  z-index: 1;
+}
+
+#explore .explore--content .nft__item .author_list_pp a {
+  position: relative;
+}
+
+#explore .explore--content .nft__item .author_list_pp a i {
+  color: #ffffff;
+  font-size: 10px;
+  background-color: #0d0c22;
+  padding: 3px;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+#explore .explore--content .nft__item .author_list_pp a img {
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 100%;
+  background-color: #0d0c22;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#explore .explore--content .nft__item .author_list_pp a img:hover {
+  padding: 3px;
+}
+
+#explore .explore--content .items_filter {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#explore .explore--content .items_filter .explore--dropdown {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: inline-block;
+  border-radius: 0px;
+  text-align: left;
+  margin-right: 10px;
+  padding: 10px 15px;
+  min-width: 140px;
+  font-weight: bold;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  color: #333;
+  background: #faf6f1;
+  font-family: "Roboto Slab";
+  cursor: pointer;
+}
+
+#explore .explore--content .items_filter #form_quick_search {
+  display: inline-block;
+  margin-right: 0px;
+  margin-bottom: -16px;
+}
+
+#explore .explore--content .items_filter #form_quick_search input[type="text"] {
+  border: solid 1px #888;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#explore .explore--content .items_filter #form_quick_search a i {
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  width: 60px;
+  background: #171a21;
+  color: #ffffff;
+  display: table-cell;
+  padding: 13px 0;
+}
+/*# sourceMappingURL=explore.style.css.map */
