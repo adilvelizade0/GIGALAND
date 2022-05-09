@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#wallet {
+  .wallet--title {
+    border-bottom: solid 1px #ccc;
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .wallet--content {
+    .box-url {
+      border: solid 1px #888;
+      background: #fdfbf8;
+      border-radius: 0;
+      box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      position: relative;
+      padding: 30px;
+      display: block;
+      text-decoration: none;
+
+      h4 {
+        color: #0d0c22;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-weight: 400;
+        font-family: "Roboto Slab";
+        color: #727272;
+        margin-bottom: 0;
+      }
+
+      img {
+        vertical-align: middle;
+        margin-bottom: 20px;
+      }
+
+      .box-url-label {
+        border: solid 1px #888;
+        background: #fdfbf8;
+        border-radius: 0;
+        font-weight: bold;
+        position: absolute;
+        right: 30px;
+        color: #0d0c22;
+        padding: 2px 10px;
+      }
+    }
+  }
+}
