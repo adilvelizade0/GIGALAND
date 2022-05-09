@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+.activity {
+  background-color: #faf6f1;
+
+  .filter {
+    div {
+      font-weight: bold;
+      color: #727272;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  .filter_by {
+    border: solid 1px #888;
+    background: #fdfbf8;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 8px 10px;
+
+    a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      strong {
+        font-size: 16px;
+      }
+
+      i {
+        height: 32px;
+        width: 32px;
+        padding: 9px;
+        text-align: center;
+        border-radius: 100%;
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .list {
+    border: solid 1px #888;
+    background: #fdfbf8;
+    border-radius: 0;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+    margin: 30px 0;
+
+    i {
+      background: #fff;
+      height: 48px;
+      width: 48px;
+      font-size: 26px !important;
+
+      padding: 12px;
+      border: solid 2px #333;
+      box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      text-align: center;
+      border-radius: 100%;
+    }
+  }
+
+  .activityhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+    h1 {
+      font-size: 50px;
+      font-family: "Bungee";
+    }
+  }
+  .container {
+    .row {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          div {
+            background-color: white;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+              border-radius: 50%;
+            }
+            .activlist {
+              h5 {
+                a {
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer style
+.footer {
+  background-color: #0d0c22;
+
+  h5,
+  a,
+  p,
+  i {
+    color: white;
+    font-family: "Roboto Slab", serif;
+  }
+
+  .headText {
+    font-family: "Bungee", cursive;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .smallRem {
+    font-size: 0.875rem;
+  }
+
+  .inputDiv {
+    input {
+      background-color: #262548;
+      border: 0 solid;
+
+      &::placeholder {
+        font-family: "Roboto Slab", serif;
+        color: white;
+      }
+    }
+
+    i {
+      font-size: 1.7rem;
+      border: 1.1rem solid #0d0c22;
+      background-color: #0d0c22;
+    }
+  }
+
+  .footerBottom {
+    .dissapearHover {
+      transition: 0.6s;
+
+      &:hover {
+        color: #0d0c22 !important;
+      }
+    }
+
+    .socialLinks {
+      i {
+        display: inline-block;
+        color: white;
+        padding: 0.75rem 0.625rem 0.5rem 0.625rem;
+        text-align: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 0.188rem 0 0.188rem;
+        transition: 0.8s;
+
+        &:hover {
+          border: 0.2rem solid white;
+          background-color: white;
+          border-radius: 0.4rem;
+          color: #0d0c22;
+        }
+      }
+
+      .fa {
+        font: normal normal normal 14px/1 FontAwesome;
+      }
+    }
+  }
+}

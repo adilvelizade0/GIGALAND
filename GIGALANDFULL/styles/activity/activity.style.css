@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+.activity {
+  background-color: #faf6f1;
+}
+
+.activity .filter div {
+  font-weight: bold;
+  color: #727272;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.activity .filter_by {
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  margin: 10px 0;
+  padding: 8px 10px;
+}
+
+.activity .filter_by a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity .filter_by a strong {
+  font-size: 16px;
+}
+
+.activity .filter_by a i {
+  height: 32px;
+  width: 32px;
+  padding: 9px;
+  text-align: center;
+  border-radius: 100%;
+  background: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity .list {
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  margin: 30px 0;
+}
+
+.activity .list i {
+  background: #fff;
+  height: 48px;
+  width: 48px;
+  font-size: 26px !important;
+  padding: 12px;
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  text-align: center;
+  border-radius: 100%;
+}
+
+.activity .activityhead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 1px #ccc;
+}
+
+.activity .activityhead h1 {
+  font-size: 50px;
+  font-family: "Bungee";
+}
+
+.activity .container .row ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.activity .container .row ul li div {
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity .container .row ul li div img {
+  border-radius: 50%;
+}
+
+.activity .container .row ul li div .activlist h5 a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #0d0c22;
+}
+
+.footer h5,
+.footer a,
+.footer p,
+.footer i {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.footer .headText {
+  font-family: "Bungee", cursive;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer h5 {
+  font-size: 1.125rem;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer .smallRem {
+  font-size: 0.875rem;
+}
+
+.footer .inputDiv input {
+  background-color: #262548;
+  border: 0 solid;
+}
+
+.footer .inputDiv input::-webkit-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input:-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv i {
+  font-size: 1.7rem;
+  border: 1.1rem solid #0d0c22;
+  background-color: #0d0c22;
+}
+
+.footer .footerBottom .dissapearHover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.footer .footerBottom .dissapearHover:hover {
+  color: #0d0c22 !important;
+}
+
+.footer .footerBottom .socialLinks i {
+  display: inline-block;
+  color: white;
+  padding: 0.75rem 0.625rem 0.5rem 0.625rem;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0.188rem 0 0.188rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer .footerBottom .socialLinks i:hover {
+  border: 0.2rem solid white;
+  background-color: white;
+  border-radius: 0.4rem;
+  color: #0d0c22;
+}
+
+.footer .footerBottom .socialLinks .fa {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+/*# sourceMappingURL=activity.style.css.map */
