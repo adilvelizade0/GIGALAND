@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.liveAuction .liveAuctionHeader h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 3.125rem;
+  color: #0d0c22;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.liveAuction .liveAuctionBody {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.liveAuction .liveAuctionBody h4 {
+  font-family: 'Bungee', cursive;
+  color: #0d0c22;
+}
+
+.liveAuction .liveAuctionBody span,
+.liveAuction .liveAuctionBody a {
+  font-family: 'Roboto Slab', serif;
+}
+
+.liveAuction .liveAuctionBody .nft__item {
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_price {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-left: -.6rem;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_price span {
+  margin-left: 10px;
+  color: #0d0c22;
+  font-weight: 700;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_like {
+  position: relative;
+  bottom: 22px;
+  font-size: 14px;
+  color: #ddd;
+  float: right;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_like i {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_like:hover i {
+  color: #ec7498;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_like span {
+  color: #808080;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_action {
+  font-size: 14px;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_action a {
+  font-weight: bold;
+  color: #0d0c22;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_info {
+  position: relative;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_info .nft__item_click {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  text-align: center;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_info .nft__item_click span:hover::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_info .nft__item_click span:after {
+  display: block;
+  font-size: 16px;
+  content: "...";
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #0d0c22;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+  padding: 8px 0 0 2px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.liveAuction .liveAuctionBody .nft__item .de_countdown {
+  background: #ffffff;
+  border: solid 1px #0d0c22;
+  text-align: center;
+  color: #0d0c22;
+  min-width: 150px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 1.8rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.liveAuction .liveAuctionBody .nft__item .de_countdown span {
+  font-weight: bold;
+  font-family: "Roboto Slab";
+  word-spacing: 5px;
+  color: #0d0c22;
+}
+
+.liveAuction .liveAuctionBody .nft__item:hover .nft__item_preview {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_wrap {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-size: cover;
+  height: 264px;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+.liveAuction .liveAuctionBody .nft__item .nft__item_wrap .nft__item_preview {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.liveAuction .liveAuctionBody .nft__item .author_list_pp {
+  position: absolute;
+  z-index: 1;
+}
+
+.liveAuction .liveAuctionBody .nft__item .author_list_pp a {
+  position: relative;
+}
+
+.liveAuction .liveAuctionBody .nft__item .author_list_pp a i {
+  color: #ffffff;
+  font-size: 10px;
+  background-color: #0d0c22;
+  padding: 3px;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.liveAuction .liveAuctionBody .nft__item .author_list_pp a img {
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 100%;
+  background-color: #0d0c22;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.liveAuction .liveAuctionBody .nft__item .author_list_pp a img:hover {
+  padding: 3px;
+}
+/*# sourceMappingURL=liveauction.style.css.map */
