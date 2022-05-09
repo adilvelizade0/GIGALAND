@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#login {
+  background-image: url("https://gigaland.io/images/background/10.jpg");
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+#login .login-input {
+  border-radius: 0;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+#login .myDiv form {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+}
+
+#login .myDiv span {
+  color: #cbcbcb;
+}
+
+#login .myDiv .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#login .myDiv .login h3 {
+  font-size: 13px;
+  margin: 0 10px;
+}
+
+#login .myDiv h1 {
+  margin-top: 10px;
+}
+
+#login .myDiv .input-text {
+  width: 100%;
+  height: 33px;
+  margin-top: 18px;
+}
+
+#login .myDiv .login {
+  margin-top: 27px;
+}
+/*# sourceMappingURL=login.style.css.map */
