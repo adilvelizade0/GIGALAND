@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+}
+
+#create-collectible {
+  .create-collectible--title {
+    border-bottom: solid 1px #ccc;
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .create-collectible--content {
+    p {
+      font-family: "Roboto Slab";
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    .opt-create {
+      display: inline-block;
+      text-align: center;
+      border: solid 2px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      min-width: 44%;
+      margin: 2%;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      border-radius: 15px;
+      background-color: rgba(13, 12, 34, 0.03);
+      transition: 0.5s !important;
+
+      &:hover {
+        box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
+        border-color: #0d0c22;
+        background-color: #e2dedc;
+      }
+
+      img {
+        transition: 0.7s;
+      }
+
+      &:hover img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+// Footer style
+.footer {
+  background-color: #0d0c22;
+
+  h5,
+  a,
+  p,
+  i {
+    color: white;
+    font-family: "Roboto Slab", serif;
+  }
+
+  .headText {
+    font-family: "Bungee", cursive;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .smallRem {
+    font-size: 0.875rem;
+  }
+
+  .inputDiv {
+    input {
+      background-color: #262548;
+      border: 0 solid;
+
+      &::placeholder {
+        font-family: "Roboto Slab", serif;
+        color: white;
+      }
+    }
+
+    i {
+      font-size: 1.7rem;
+      border: 1.1rem solid #0d0c22;
+      background-color: #0d0c22;
+    }
+  }
+
+  .footerBottom {
+    .dissapearHover {
+      transition: 0.6s;
+
+      &:hover {
+        color: #0d0c22 !important;
+      }
+    }
+
+    .socialLinks {
+      i {
+        display: inline-block;
+        color: white;
+        padding: 0.75rem 0.625rem 0.5rem 0.625rem;
+        text-align: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 0.188rem 0 0.188rem;
+        transition: 0.8s;
+
+        &:hover {
+          border: 0.2rem solid white;
+          background-color: white;
+          border-radius: 0.4rem;
+          color: #0d0c22;
+        }
+      }
+
+      .fa {
+        font: normal normal normal 14px/1 FontAwesome;
+      }
+    }
+  }
+}
