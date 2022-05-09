@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreateCollectible</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0071b47268.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="../styles/createcollectible/createcollectible.style.css"
+    />
+  </head>
+  <body>
+    <div class="anime-loader position-absolute text-center">
+      <img src="../assets/loaders/giphy5.gif" width="25%" alt="loader" />
+      <h1 class="mt-3 mt-md-5">Create Collectible is loading...</h1>
+    </div>
+    <div id="create-collectible-container" class="d-none">
+      <section id="create-collectible" class="py-5">
+        <div class="create-collectible--title text-center py-5">
+          <h1>Create Collectible</h1>
+        </div>
+        <div class="container pt-5">
+          <div class="create-collectible--content py-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 d-flex align-items-center flex-column">
+                <p>
+                  Choose "Single" if you want your collectible to be one of a
+                  kind or "Multiple" if you want to sell one collectible times
+                </p>
+                <div class="container">
+                  <div class="d-flex justify-content-center">
+                    <a
+                      href="#"
+                      class="opt-create d-flex justify-content-center flex-column align-items-center text-decoration-none"
+                    >
+                      <img
+                        class="mb-4 position-relative"
+                        width="100px"
+                        src="../assets/createcollectible/imgs/retro-coll-single.png"
+                        alt="single-card"
+                      />
+                      <h3>Single</h3>
+                    </a>
+                    <a
+                      href="#"
+                      class="opt-create d-flex justify-content-center flex-column align-items-center text-decoration-none"
+                    >
+                      <img
+                        class="mb-4 position-relative"
+                        width="100px"
+                        src="../assets/createcollectible/imgs/retro-coll-Multiple.png"
+                        alt="single-card"
+                      />
+                      <h3>Multiple</h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer Section -->
+      <section class="footer">
+        <section class="text-left">
+          <div class="container text-left pt-5 mb-5">
+            <div class="row mt-3">
+              <div class="col-sm-12 col-md-6 col-lg-2 mx-auto mb-4">
+                <h5 class="headText text-uppercase fw-bold mb-4">
+                  Marketplace
+                </h5>
+                <ul>
+                  <li><a href="#">All NFTs</a></li>
+                  <li><a href="#">Art</a></li>
+                  <li><a href="#">Music</a></li>
+                  <li><a href="#">Domain Names</a></li>
+                  <li><a href="#">Virtual World</a></li>
+                  <li><a href="#">Collectibles</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2 mx-auto mb-4">
+                <h5 class="headText text-uppercase fw-bold mb-4">Resources</h5>
+                <ul>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Suggestions</a></li>
+                  <li><a href="#">Discord</a></li>
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Newsletter</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2 mx-auto mb-4">
+                <h5 class="headText text-uppercase fw-bold mb-4">Community</h5>
+                <ul>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Brand Assets</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">Mailing List</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 mx-auto mb-4">
+                <h5 class="headText text-uppercase fw-bold mb-4">Newsletter</h5>
+                <p>
+                  Signup for our newsletter to get the latest news in your
+                  inbox.
+                </p>
+                <form class="row">
+                  <div class="inputDiv col text-center d-flex">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="enter your email"
+                    />
+                    <a title="submit" href="#"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </form>
+                <p class="mt-3 smallRem">
+                  Your email is safe with us. We don't spam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="container-fluid footerBottom row pb-3 d-flex justify-content-around"
+        >
+          <hr />
+          <div class="row col-lg-8">
+            <div class="col-lg-4 col-md-12">
+              <a class="footerLogo" href=""
+                ><img
+                  src="../assets/home/footer/imgs/logo-retro-light.png"
+                  alt="logo"
+              /></a>
+            </div>
+            <div class="col-lg-8 col-md-12 ps-3 py-3 py-lg-0">
+              <a href="#" class="dissapearHover"
+                >© Copyright 2022 - Gigaland by Designesia</a
+              >
+            </div>
+          </div>
+          <div
+            class="socialLinks d-flex justify-content-start justify-content-lg-end col-lg-4 col-md-12"
+          >
+            <a title="social" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+            <a title="social" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+            <a title="social" href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+            <a title="social" href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+            <a title="social" href="#"><i class="fa fa-rss fa-lg"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      setTimeout(() => {
+        document.querySelector(".anime-loader").style.display = "none";
+        document.body.style.animation = "none";
+        document
+          .querySelector("#create-collectible-container")
+          .classList.remove("d-none");
+      }, 5000);
+      document
+        .querySelector(".footerLogo")
+        .addEventListener("mouseover", () => {
+          document.querySelector(".dissapearHover").style.color = "#0d0c22";
+        });
+      document.querySelector(".footerLogo").addEventListener("mouseout", () => {
+        document.querySelector(".dissapearHover").style.color = "#fff";
+      });
+    </script>
+  </body>
+</html>

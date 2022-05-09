@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#create-collectible .create-collectible--title {
+  border-bottom: solid 1px #ccc;
+}
+
+#create-collectible .create-collectible--title h1 {
+  font-size: 50px;
+}
+
+#create-collectible .create-collectible--content p {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#create-collectible .create-collectible--content .opt-create {
+  display: inline-block;
+  text-align: center;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  min-width: 44%;
+  margin: 2%;
+  border-radius: 15px;
+  background-color: rgba(13, 12, 34, 0.03);
+  -webkit-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+
+#create-collectible .create-collectible--content .opt-create:hover {
+  -webkit-box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
+          box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
+  border-color: #0d0c22;
+  background-color: #e2dedc;
+}
+
+#create-collectible .create-collectible--content .opt-create img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#create-collectible .create-collectible--content .opt-create:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer {
+  background-color: #0d0c22;
+}
+
+.footer h5,
+.footer a,
+.footer p,
+.footer i {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.footer .headText {
+  font-family: "Bungee", cursive;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer h5 {
+  font-size: 1.125rem;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer .smallRem {
+  font-size: 0.875rem;
+}
+
+.footer .inputDiv input {
+  background-color: #262548;
+  border: 0 solid;
+}
+
+.footer .inputDiv input::-webkit-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input:-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv i {
+  font-size: 1.7rem;
+  border: 1.1rem solid #0d0c22;
+  background-color: #0d0c22;
+}
+
+.footer .footerBottom .dissapearHover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.footer .footerBottom .dissapearHover:hover {
+  color: #0d0c22 !important;
+}
+
+.footer .footerBottom .socialLinks i {
+  display: inline-block;
+  color: white;
+  padding: 0.75rem 0.625rem 0.5rem 0.625rem;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0.188rem 0 0.188rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer .footerBottom .socialLinks i:hover {
+  border: 0.2rem solid white;
+  background-color: white;
+  border-radius: 0.4rem;
+  color: #0d0c22;
+}
+
+.footer .footerBottom .socialLinks .fa {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+/*# sourceMappingURL=createcollectible.style.css.map */
