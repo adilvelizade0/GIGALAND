@@ -1,0 +1,67 @@
+#category .category--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#category .category--title h2 {
+  font-family: "Bungee";
+  font-weight: bold;
+}
+
+#category .category--title .dash {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+#category .card {
+  border-radius: 0;
+  border: 1px solid #0d0c22;
+  -webkit-box-shadow: 5px 8px #e3e0db;
+          box-shadow: 5px 8px #e3e0db;
+}
+
+#category .card:hover p {
+  color: #0d0c22 !important;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#category .card .card-body {
+  text-align: center;
+}
+
+#category .card .card-body a {
+  text-decoration: none;
+  color: #0d0c22;
+}
+
+#category .card .card-body a i {
+  font-size: 40px;
+  display: block;
+}
+
+#category .card .card-body a p {
+  font-size: 14px;
+  font-family: "Bungee", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Slab", serif;
+  color: #606060;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+/*# sourceMappingURL=category.style.css.map */
