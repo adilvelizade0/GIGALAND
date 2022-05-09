@@ -2,7 +2,7 @@ setTimeout(() => {
   document.querySelector(".anime-loader").style.display = "none";
   document.body.style.animation = "none";
   document.querySelector("#homepage-container").classList.remove("d-none");
-}, 500);
+}, 5000);
 
 document.querySelector(".headerSwiper").addEventListener("mouseover", () => {
   document.querySelector(".header-swiper-button-prev").style.opacity = "1";

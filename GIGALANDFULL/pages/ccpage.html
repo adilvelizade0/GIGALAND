@@ -23,6 +23,8 @@
       src="https://kit.fontawesome.com/0071b47268.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Navbar style -->
+    <link rel="stylesheet" href="../styles/home/nav/nav.style.css" />
     <link rel="stylesheet" href="../styles/ccpage/toggle.css" />
     <link rel="stylesheet" href="../styles/ccpage/ccpage.style.css" />
   </head>
@@ -32,6 +34,107 @@
       <h1 class="mt-3 mt-md-5">Create Collectible Page is loading...</h1>
     </div>
     <div id="cc-page" class="d-none">
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="./home.html"
+            ><img src="../assets/home/header/imgs/logo-retro.png" alt="logo"
+          /></a>
+          <input
+            id="quick_search"
+            class="d-none d-lg-inline-block"
+            name="quick_search"
+            placeholder="search item here..."
+            type="text"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-md-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  title="explore"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="./explore.html">Explore</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./help-center.html"
+                      >Help Center</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Author
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="./author.html">Author</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./wallet.html">Wallet</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./createcollectible.html"
+                      >Create</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./activity.html"
+                  >Activity</a
+                >
+              </li>
+            </ul>
+            <a class="btn-main" href="./wallet.html">Connected Wallet</a>
+          </div>
+        </div>
+      </nav>
       <section id="create-collectible-page" class="py-5">
         <div class="create-collectible-page--title text-center py-5">
           <div class="container">
@@ -326,6 +429,11 @@
         </div>
       </section>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script>
       setTimeout(() => {
         document.querySelector(".anime-loader").style.display = "none";
