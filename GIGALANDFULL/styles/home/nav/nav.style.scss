@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #faf6f1;
+  border-bottom: solid 1px #dddddd;
+
+  #quick_search {
+    border: solid 1px #888;
+    background: #fdfbf8;
+    border-radius: 0;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    margin-left: 20px;
+    padding: 5px 11px;
+    font-size: 15px;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+
+    outline: none;
+  }
+
+  .dropdown-menu {
+    border: solid 1px #888;
+    border-radius: 0;
+    width: 180px;
+    height: auto;
+    box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
+    background-color: #faf6f1;
+
+    li {
+      font-family: "Roboto Slab";
+      font-size: 14px;
+      background-color: #faf6f1;
+      color: #606060;
+
+      .dropdown-item:hover {
+        background-color: black;
+        color: #faf6f1;
+      }
+    }
+  }
+
+  .nav-link {
+    font-family: "Roboto Slab";
+    color: #222 !important;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 30px 18px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+    outline: none;
+  }
+
+  .btn-main {
+    text-align: center;
+    color: #fff;
+    outline: 0;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 6px 20px !important;
+    font-size: 14px;
+    border: none;
+    margin-left: 15px;
+    transition: 0.5s;
+
+    &:hover {
+      border: solid 1px #888;
+      background: #fdfbf8;
+      border-radius: 0;
+      box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+    }
+  }
+}

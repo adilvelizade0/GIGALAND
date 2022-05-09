@@ -24,6 +24,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
+  padding-left: 0 !important;
 }
 
 #top-sellers .top-sellers--content .author_list li {
