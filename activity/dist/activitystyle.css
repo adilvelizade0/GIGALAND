@@ -1,21 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .activity {
   background-color: #faf6f1;
 }
-
 .activity .filter div {
   font-weight: bold;
   color: #727272;
   font-size: 16px;
   line-height: 22px;
 }
-
 .activity .filter_by {
   border: solid 1px #888;
   background: #fdfbf8;
@@ -23,23 +20,14 @@
   margin: 10px 0;
   padding: 8px 10px;
 }
-
 .activity .filter_by a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 .activity .filter_by a strong {
   font-size: 16px;
 }
-
 .activity .filter_by a i {
   height: 32px;
   width: 32px;
@@ -47,26 +35,17 @@
   text-align: center;
   border-radius: 100%;
   background: #eee;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .activity .list {
   border: solid 1px #888;
   background: #fdfbf8;
   border-radius: 0;
-  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
-          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
   margin: 30px 0;
 }
-
 .activity .list i {
   background: #fff;
   height: 48px;
@@ -74,52 +53,34 @@
   font-size: 26px !important;
   padding: 12px;
   border: solid 2px #333;
-  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
-          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
   text-align: center;
   border-radius: 100%;
 }
-
 .activity .activityhead {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   border-bottom: solid 1px #ccc;
 }
-
 .activity .activityhead h1 {
   font-size: 50px;
   font-family: "Bungee";
 }
-
 .activity .container .row ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .activity .container .row ul li div {
   background-color: white;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 .activity .container .row ul li div img {
   border-radius: 50%;
 }
-
 .activity .container .row ul li div .activlist h5 a {
   text-decoration: none;
 }
-/*# sourceMappingURL=activitystyle.css.map */

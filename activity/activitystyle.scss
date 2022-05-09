@@ -1,50 +1,109 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.activity{
-    background-color: #FAF6F1;
-    .activityhead{
+.activity {
+  background-color: #faf6f1;
+
+  .filter {
+    div {
+      font-weight: bold;
+      color: #727272;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  .filter_by {
+    border: solid 1px #888;
+    background: #fdfbf8;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 8px 10px;
+
+    a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      strong {
+        font-size: 16px;
+      }
+
+      i {
+        height: 32px;
+        width: 32px;
+        padding: 9px;
+        text-align: center;
+        border-radius: 100%;
+        background: #eee;
         display: flex;
-        flex-wrap: wrap;
-        height: 200px;
         justify-content: center;
-          align-items: center;
-        h1{
-          font-size: 50px;
-          font-family: "Bungee";
-        }
+        align-items: center;
+      }
     }
-    .container{
-        .row{
-            ul{
-                list-style: none;
-                
-                li{
-                    margin: 10px 20px;
-                    border: solid 1px #888;
-                    div{
-                        
-                        background-color: white;
-                        justify-content: space-around;
-                        align-items: center;
-                        
-                        img{
-                            border-radius: 50%;
-                        }
-                        .activlist{
-                            h5{
-                                a{
-                                   text-decoration: none;
-                                }
-                            }
-                           
-                        }
-                    }
-                }
+  }
+
+  .list {
+    border: solid 1px #888;
+    background: #fdfbf8;
+    border-radius: 0;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+    margin: 30px 0;
+
+    i {
+      background: #fff;
+      height: 48px;
+      width: 48px;
+      font-size: 26px !important;
+
+      padding: 12px;
+      border: solid 2px #333;
+      box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+      text-align: center;
+      border-radius: 100%;
+    }
+  }
+
+  .activityhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+    h1 {
+      font-size: 50px;
+      font-family: "Bungee";
+    }
+  }
+  .container {
+    .row {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          div {
+            background-color: white;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+              border-radius: 50%;
             }
+            .activlist {
+              h5 {
+                a {
+                  text-decoration: none;
+                }
+              }
+            }
+          }
         }
+      }
     }
+  }
 }
