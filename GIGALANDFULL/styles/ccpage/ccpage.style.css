@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee";
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0d0c22;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #727272;
+  -webkit-animation: change-background 1s ease infinite;
+          animation: change-background 1s ease infinite;
+  overflow-x: hidden;
+}
+
+.anime-loader {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime-loader img {
+  border: 2px solid #0d0c22;
+  padding: 1px;
+}
+
+/* Keyframes */
+@-webkit-keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+@keyframes change-background {
+  0% {
+    background: #f9ebc8;
+  }
+  50% {
+    background: #fefbe7;
+  }
+  100% {
+    background: #faf6f1;
+  }
+}
+
+#create-collectible-page .create-collectible-page--title {
+  border-bottom: solid 1px #ccc;
+}
+
+#create-collectible-page .create-collectible-page--title h1 {
+  font-size: 45px;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item {
+  border: solid 1px #888;
+  background: #fdfbf8;
+  border-radius: 0;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_price {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_price span {
+  margin-left: 10px;
+  color: #0d0c22;
+  font-weight: 700;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_like {
+  position: relative;
+  bottom: 22px;
+  font-size: 14px;
+  color: #ddd;
+  float: right;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_like i {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_like:hover i {
+  color: #ec7498;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_like span {
+  color: #808080;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_action {
+  font-size: 14px;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_action a {
+  font-weight: bold;
+  color: #0d0c22;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_info {
+  position: relative;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_info .nft__item_click {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  text-align: center;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_info .nft__item_click span:hover::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_info .nft__item_click span:after {
+  display: block;
+  font-size: 16px;
+  content: "...";
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #0d0c22;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+  padding: 8px 0 0 2px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .de_countdown {
+  position: absolute;
+  right: 20px;
+  background: #ffffff;
+  border: solid 1px #0d0c22;
+  text-align: center;
+  color: #0d0c22;
+  min-width: 150px;
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: center;
+  z-index: 1;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .de_countdown span {
+  font-weight: bold;
+  font-family: "Roboto Slab";
+  word-spacing: 5px;
+  color: #0d0c22;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item:hover .nft__item_preview {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_wrap {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-size: cover;
+  height: 264px;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .nft__item_wrap .nft__item_preview {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .author_list_pp {
+  position: absolute;
+  z-index: 1;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .author_list_pp a {
+  position: relative;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .author_list_pp a i {
+  color: #ffffff;
+  font-size: 10px;
+  background-color: #0d0c22;
+  padding: 3px;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .author_list_pp a img {
+  border: solid 2px #333;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 100%;
+  background-color: #0d0c22;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#create-collectible-page .create-collectible-page--content .nft__item .author_list_pp a img:hover {
+  padding: 3px;
+}
+
+#create-collectible-page .create-collectible-page--content #item_desc {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: none;
+  border: solid 1px #dddddd;
+  background: none;
+  height: auto;
+  border-radius: 0;
+  color: #333;
+}
+
+#create-collectible-page .create-collectible-page--content #item_desc:focus {
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+          box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+  background-color: rgba(13, 12, 34, 0.1);
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item input#submit {
+  text-align: center;
+  color: #fff;
+  background-color: #0d0c22;
+  outline: 0;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 8px 40px;
+  font-size: 14px;
+  border: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item input#submit:hover {
+  -webkit-box-shadow: 2px 2px 20px 0px rgba(13, 12, 34, 0.5);
+          box-shadow: 2px 2px 20px 0px rgba(13, 12, 34, 0.5);
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item input[type="text"] {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: none;
+  border: solid 1px #dddddd;
+  background: none;
+  height: auto;
+  border-radius: 0;
+  color: #333;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item input[type="text"]:focus {
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+          box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+  background-color: rgba(13, 12, 34, 0.1);
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item #btn-selector {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: inline-block;
+  padding: 7px 12px 7px 12px;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background-color: #faf6f1;
+  min-width: 140px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .switch-with-title {
+  padding: 20px;
+  padding-bottom: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab {
+  overflow: hidden;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content {
+  padding: 5px;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content #tab_opt_1,
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content #tab_opt_2,
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content #tab_opt_3 {
+  display: none;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content .tab_opt_active {
+  display: block !important;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content input {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: none;
+  border: solid 1px #dddddd;
+  background: none;
+  height: auto;
+  border-radius: 0;
+  color: #333;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_tab_content input:focus {
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+          box-shadow: 0px 0px 0px 4px rgba(13, 12, 34, 0.3);
+  background-color: rgba(13, 12, 34, 0.1);
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav {
+  overflow: hidden;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  list-style-type: disc;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav li {
+  background: none;
+  display: inline-block;
+  float: none;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav li:active span {
+  border-color: #0d0c22;
+  color: #0d0c22;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav li span {
+  padding: 35px 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 140px;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav li span i {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .de_tab .de_nav .active span {
+  border-color: #0d0c22;
+  color: #0d0c22;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item h5 {
+  font-size: 18px;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .d-create-file {
+  padding: 50px;
+  border: dashed 3px #dddddd;
+  text-align: center;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .d-create-file p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .d-create-file #get_file {
+  text-align: center;
+  color: #fff;
+  background-color: #0d0c22;
+  outline: 0;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 8px 40px;
+  font-size: 14px;
+  border: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#create-collectible-page .create-collectible-page--content #form-create-item .d-create-file #get_file:hover {
+  -webkit-box-shadow: 2px 2px 20px 0px rgba(13, 12, 34, 0.5);
+          box-shadow: 2px 2px 20px 0px rgba(13, 12, 34, 0.5);
+}
+
+.footer {
+  background-color: #0d0c22;
+}
+
+.footer h5,
+.footer a,
+.footer p,
+.footer i {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.footer .headText {
+  font-family: "Bungee", cursive;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer h5 {
+  font-size: 1.125rem;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer .smallRem {
+  font-size: 0.875rem;
+}
+
+.footer .inputDiv input {
+  background-color: #262548;
+  border: 0 solid;
+}
+
+.footer .inputDiv input::-webkit-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input:-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv input::placeholder {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.footer .inputDiv i {
+  font-size: 1.7rem;
+  border: 1.1rem solid #0d0c22;
+  background-color: #0d0c22;
+}
+
+.footer .footerBottom .dissapearHover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.footer .footerBottom .dissapearHover:hover {
+  color: #0d0c22 !important;
+}
+
+.footer .footerBottom .socialLinks i {
+  display: inline-block;
+  color: white;
+  padding: 0.75rem 0.625rem 0.5rem 0.625rem;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0.188rem 0 0.188rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer .footerBottom .socialLinks i:hover {
+  border: 0.2rem solid white;
+  background-color: white;
+  border-radius: 0.4rem;
+  color: #0d0c22;
+}
+
+.footer .footerBottom .socialLinks .fa {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+/*# sourceMappingURL=ccpage.style.css.map */
