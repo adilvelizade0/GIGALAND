@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body h1 {
+  font-family: "Bungee";
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #0d0c22;
+  text-align: center;
+  padding: 120px 80px;
+  border-bottom: solid 1px #ccc;
+  background: #FAF6F1;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+body {
+  background: #FAF6F1;
+}
+
+body section {
+  padding: 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .card {
+  border: solid 1px #888;
+  background: #FDFBF8;
+  border-radius: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0px 30px;
+  position: relative;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.09);
+}
+
+body section button {
+  border: solid 1px #888;
+  background: #FDFBF8;
+  border-radius: 0;
+  right: 30px;
+  color: #0d0c22;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  font-size: 16px;
+  height: 30px;
+  width: 125px;
+}
+
+body section img {
+  margin-bottom: 20px;
+}
+
+body section h4 {
+  color: #0d0c22;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Bungee";
+}
+
+body section p {
+  color: #727272;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=wallet.css.map */
