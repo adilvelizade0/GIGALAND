@@ -103,7 +103,7 @@ h1 {
         }
         ul {
             list-style: none;
-            display: block;
+            display: none;
             padding: 0;
             margin: 0;
             z-index: 10;
@@ -132,6 +132,11 @@ h1 {
         }
         li.active {
             display: none;
+        }
+        &:hover {
+            >ul {
+                display: block;
+            }
         }
     }
 }
